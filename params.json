@@ -1,6 +1,6 @@
 {
   "name": "Baidu_missions",
   "tagline": "",
-  "body": "# baidu_missions\r\n",
+  "body": "# baidu_missions\r\n<html>\r\n<head>\r\n\t<meta charset=\"UTF-8\">\r\n\t<title>baidu-missions</title>\r\n</head>\r\n<body>\r\n\t<div>\r\n\t\t<ul>\r\n\t\t\t<li><a href=\"\">任务三：三栏式布局</a></li>\r\n\t\t\t<li><a href=\"\">任务四：定位和居中问题</a></li>\r\n\t\t\t<li><a href=\"\">任务六：通过HTML及CSS模拟报纸排版</a></li>\r\n\t\t\t<li><a href=\"\">任务八：响应式网格（栅格化）布局</a></li>\r\n\t\t\t<li><a href=\"\">任务十：Flexbox 布局练习</a></li>\r\n\t\t</ul>\r\n\t</div>\r\n</body>\r\n</html>",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
