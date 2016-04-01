@@ -1,0 +1,140 @@
+body{
+	padding: 50px;
+}
+.one table thead{
+	background-color: #000;
+	color: #fff;
+}
+
+.one table tbody tr:nth-child(-n+3){
+	color: #f00;
+}
+.one table tbody tr:nth-child(even){
+	background-color: #ddd;
+}
+.two{
+	width: 200px;
+	margin-top: 50px;
+	text-align: center;
+}
+.two input{
+	width: 100px;
+	margin-bottom: 50px;
+}
+
+.input2:focus{
+	width: 160px !important;
+	animation:getWider 2s;
+}
+
+@keyframes getWider
+{
+	from {width: 100px;}
+	to {width: 160px;}
+}
+
+#wrap{
+	position: relative;
+	padding: 0;
+	width: 200px;
+	height: 100px;
+	overflow: hidden;
+}
+#slider{
+	width: 200%;
+	height: 100px;
+	animation:slider123 2s infinite;
+}
+#slider{
+	padding: 0;
+}
+#slider li{
+	width: 200px;
+	height: 100px;
+	float: left;
+	list-style: none;
+}
+
+#slider li:nth-child(1){
+	background-color: green;
+}
+#slider li:nth-child(2){
+	background-color: blue;
+}
+#opts{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+}
+#opts label{
+	padding: 5px 8px;
+	background-color: rgb(121,194,119);
+}
+#opts label:hover {
+  background-color: rgb(125,121,254);
+}
+
+@keyframes slider123
+{
+   0% { margin-left:0;}
+   23% { margin-left:0;}
+   33% { margin-left:-100px;}
+   56% { margin-left:-100px;}
+   66% { margin-left:-200px;}
+   90% { margin-left:-200px;}
+   100% {margin-left:0;}
+}
+
+@keyframes slider231
+{
+    0% { margin-left:-100px;}
+    23% { margin-left:-100px;}
+    33% { margin-left:-200px;}
+    56% { margin-left:-200px;}
+    66% { margin-left:0;}
+    90% { margin-left:0;}
+    100% {margin-left:-100px;}
+}
+@keyframes slider312
+{
+    0% { margin-left:-200px;}
+    23% { margin-left:-200px;}
+    33% { margin-left:0;}
+    56% { margin-left:0;}
+    66% { margin-left:-100px;}
+    90% { margin-left:-100px;}
+    100% {margin-left:-200px;}
+}
+
+/*修改动画名称*/
+#first:checked ~ #wrap #slider {
+  animation-name:slider123;
+}
+
+#second:checked ~ #wrap #slider {
+  animation-name:slider231;
+}
+
+#third:checked ~ #wrap #slider {
+  animation-name:slider312;
+}
+
+/*短暂地取消动画名称，模拟重启动画*/
+#first:active ~ #wrap #slider {
+  animation-name:none;
+  margin-left:0;
+}
+
+#second:active ~ #wrap #slider {
+  animation-name:none;
+  margin-left:-100px;
+}
+
+#third:active ~ #wrap #slider {
+  animation-name:none;
+  margin-left:-200px;
+}
+.three input{
+	display: none;
+}
