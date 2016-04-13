@@ -1,0 +1,22 @@
+.input,.button,.quene{
+	margin: 20px;
+}
+.quene{
+	display: flex;
+}
+.quene div{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	color: rgb(255,255,255);
+	display: table;
+	text-align: center;
+	background-color: rgb(239,115,20);
+	border: 1px solid rgba(239,115,20,0.8);
+}
+.quene span{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 20px;
+
+}
