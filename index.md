@@ -21,12 +21,12 @@
 <h2>第二阶段任务</h2>
 <div>
 	<ul>
-		<li><a href="./mission13/">任务十三：零基础JavaScript编码（一）</a></li>
-		<li><a href="./mission14/">任务十四：零基础JavaScript编码（二）</a></li>
-		<li><a href="./mission15/">任务十五：零基础JavaScript编码（三）</a></li>
-		<li><a href="./mission16/">任务十六：零基础JavaScript编码（四）</a></li>
-		<li><a href="./mission17/">任务十七：零基础JavaScript编码（五）</a></li>
-		<li><a href="./mission18/">任务十八：基础JavaScript练习（一）</a></li>
+		<li><a href="./mission13/mission13.html">任务十三：零基础JavaScript编码（一）</a></li>
+		<li><a href="./mission14/mission14.html">任务十四：零基础JavaScript编码（二）</a></li>
+		<li><a href="./mission15/mission15.html">任务十五：零基础JavaScript编码（三）</a></li>
+		<li><a href="./mission16/mission16.html">任务十六：零基础JavaScript编码（四）</a></li>
+		<li><a href="./mission17/mission17.html">任务十七：零基础JavaScript编码（五）</a></li>
+		<li><a href="./mission18/mission18.html">任务十八：基础JavaScript练习（一）</a></li>
 	</ul>
 </div>
 </body>
